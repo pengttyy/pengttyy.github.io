@@ -1,3 +1,3 @@
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pengttyy-github-io/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+[![Gitter](https://badges.gitter.im/pengttyy-github-io/Lobby.svg)](https://gitter.im/pengttyy-github-io/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 # pengttyy.github.io
 博客
