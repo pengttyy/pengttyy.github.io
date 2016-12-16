@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pengttyy.github.io/"/>
-  <updated>2016-11-29T04:14:24.989Z</updated>
+  <updated>2016-12-16T05:55:50.270Z</updated>
   <id>https://pengttyy.github.io/</id>
   
   <author>
@@ -16,13 +16,14 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>docker概念及基本用法</title>
-    <link href="https://pengttyy.github.io/2016/11/23/docker%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/"/>
-    <id>https://pengttyy.github.io/2016/11/23/docker概念及基本用法/</id>
-    <published>2016-11-23T14:44:34.000Z</published>
-    <updated>2016-11-29T04:14:24.989Z</updated>
+    <title></title>
+    <link href="https://pengttyy.github.io/2016/12/16/docker%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/"/>
+    <id>https://pengttyy.github.io/2016/12/16/docker概念及基本用法/</id>
+    <published>2016-12-16T05:55:50.270Z</published>
+    <updated>2016-12-16T05:55:50.270Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Docker概念"><a href="#Docker概念" class="headerlink" title="Docker概念"></a>Docker概念</h2><h3 id="容器技术"><a href="#容器技术" class="headerlink" title="容器技术"></a>容器技术</h3><p>特点：</p>
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><script src="https://gist.github.com/pengttyy/c756ba874f07c424a0136d6509e425bf.js"></script></h2><p>title: docker概念及基本用法<br>date: 2016-11-23 22:44:34</p>
+<h2 id="tags-docker"><a href="#tags-docker" class="headerlink" title="tags: docker"></a>tags: docker</h2><h2 id="Docker概念"><a href="#Docker概念" class="headerlink" title="Docker概念"></a>Docker概念</h2><h3 id="容器技术"><a href="#容器技术" class="headerlink" title="容器技术"></a>容器技术</h3><p>特点：</p>
 <ol>
 <li>比虚拟化技术更轻量级</li>
 <li>资源消耗小</li>
@@ -70,12 +71,10 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Docker概念&quot;&gt;&lt;a href=&quot;#Docker概念&quot; class=&quot;headerlink&quot; title=&quot;Docker概念&quot;&gt;&lt;/a&gt;Docker概念&lt;/h2&gt;&lt;h3 id=&quot;容器技术&quot;&gt;&lt;a href=&quot;#容器技术&quot; class=&quot;headerlink&quot; 
+      &lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;script src=&quot;https://gist.github.com/pengttyy/c756ba874f07c424a0136d6509e425bf.js&quot;&gt;&lt;/s
     
     </summary>
     
-    
-      <category term="docker" scheme="https://pengttyy.github.io/tags/docker/"/>
     
   </entry>
   
@@ -84,7 +83,7 @@
     <link href="https://pengttyy.github.io/2016/11/23/docker%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%952/"/>
     <id>https://pengttyy.github.io/2016/11/23/docker概念及基本用法2/</id>
     <published>2016-11-23T14:44:34.000Z</published>
-    <updated>2016-11-29T04:14:24.989Z</updated>
+    <updated>2016-12-16T05:55:50.270Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Docker概念"><a href="#Docker概念" class="headerlink" title="Docker概念"></a>Docker概念</h2><h3 id="容器技术"><a href="#容器技术" class="headerlink" title="容器技术"></a>容器技术</h3><p>特点：</p>
 <ol>

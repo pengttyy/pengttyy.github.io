@@ -274,20 +274,25 @@
 				
 				
 				
-                <!-- Index Module -->
-<div class="material-index mdl-grid">
-	
-    
-    
-		
-		
-			<!-- Isolation Thumbnail -->
-        	<div class="post_entry-module mdl-card mdl-cell mdl-cell--12-col fade out">
+                
 
-	<!-- Post_entry Header -->
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+		
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+	
+
+	<!-- Isolation Post Header -->
+	<!-- Post thumbnail -->
 	
 		<!-- Post Header Info -->
-		<div class="post_entry-header_info without-thumbnail">
+		<div class="post-header_info without-thumbnail">
 			<!-- Author Avatar & Name -->
 			<img src="/img/avatar.png" class="avatar-img" width="44px" height="44px" alt="object's avatar">
 			<span class="name-span">object</span>
@@ -297,112 +302,141 @@
 		<div class="post_thumbnail-null">
 	
 	</div>
-			
-	<!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-		<!-- Post Title -->
-		<p class="post_entry-title">
-			<a href="/2016/12/16/docker概念及基本用法/"></a>
-		</p>
-		
-		<!-- Post Excerpt -->
-		<p class="post_entry-excerpt">
-			
-			  
-			
-			&nbsp;&nbsp;&nbsp;
-			<span>
-				<a href="/2016/12/16/docker概念及基本用法/" target="_self">继续阅读</a>
-			</span>
-		</p>
-		
-		<!-- Post Tags -->
-		
-    </div>
-			
-	<!-- Post_entry Footer -->
-	<div class="post_entry-footer">
-		<div class="post_entry-footer-border"></div>
-		<div class="post_entry-footer-info">
-			<div class="post_entry-footer-date">
-				12月 16, 2016
-			</div>
-			<div class="post_entry-footer-comment">
-				
-					<!-- Comment Number -->
-					<span class="ds-thread-count" data-thread-key="undefined" data-count-type="comments"></span>
-				
-			</div>
-		</div>
-	</div>
-	
-</div>
-		
-    
-		
-		
-			<!-- Isolation Thumbnail -->
-        	<div class="post_entry-module mdl-card mdl-cell mdl-cell--12-col fade out">
 
-	<!-- Post_entry Header -->
-	
-		<!-- Post Header Info -->
-		<div class="post_entry-header_info without-thumbnail">
-			<!-- Author Avatar & Name -->
-			<img src="/img/avatar.png" class="avatar-img" width="44px" height="44px" alt="object's avatar">
-			<span class="name-span">object</span>
-		</div>
-	
-		<!-- Null Thumbnail -->
-		<div class="post_thumbnail-null">
-	
-	</div>
-			
-	<!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-		<!-- Post Title -->
-		<p class="post_entry-title">
-			<a href="/2016/11/23/docker概念及基本用法2/">docker概念及基本用法2</a>
-		</p>
-		
-		<!-- Post Excerpt -->
-		<p class="post_entry-excerpt">
-			
-			  
-			
-			&nbsp;&nbsp;&nbsp;
-			<span>
-				<a href="/2016/11/23/docker概念及基本用法2/" target="_self">继续阅读</a>
-			</span>
-		</p>
-		
-		<!-- Post Tags -->
-		<ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/docker/">docker</a></li></ul>
-    </div>
-			
-	<!-- Post_entry Footer -->
-	<div class="post_entry-footer">
-		<div class="post_entry-footer-border"></div>
-		<div class="post_entry-footer-info">
-			<div class="post_entry-footer-date">
-				11月 23, 2016
-			</div>
-			<div class="post_entry-footer-comment">
 				
-					<!-- Comment Number -->
-					<span class="ds-thread-count" data-thread-key="undefined" data-count-type="comments"></span>
 				
-			</div>
-		</div>
-	</div>
-	
-</div>
-		
-    
-    
-	
 
+                <!-- Post Content -->
+                <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+	
+	
+	
+		<div class="post-content_wrapper">
+			<p class="post-title">
+				
+			</p>
+			<h2 id=""><a href="#" class="headerlink" title=""></a><script src="https://gist.github.com/pengttyy/c756ba874f07c424a0136d6509e425bf.js"></script></h2><p>title: docker概念及基本用法<br>date: 2016-11-23 22:44:34</p>
+<h2 id="tags-docker"><a href="#tags-docker" class="headerlink" title="tags: docker"></a>tags: docker</h2><h2 id="Docker概念"><a href="#Docker概念" class="headerlink" title="Docker概念"></a>Docker概念</h2><h3 id="容器技术"><a href="#容器技术" class="headerlink" title="容器技术"></a>容器技术</h3><p>特点：</p>
+<ol>
+<li>比虚拟化技术更轻量级</li>
+<li>资源消耗小</li>
+<li>共享系统内核</li>
+<li>基于LXC技术构建的容器引擎</li>
+<li>核心理念就是 Build once, Run anywhere</li>
+</ol>
+<h3 id="镜像"><a href="#镜像" class="headerlink" title="镜像"></a>镜像</h3><p>类似于虚拟机里的镜像<br>通过Dockerfile创建，也可以通过DockerHub下载</p>
+<h3 id="容器"><a href="#容器" class="headerlink" title="容器"></a>容器</h3><p>镜像的运行实例，容器之间隔离使用linux的CGroups和Namespaces技术实现，CGroups控制对硬件资源的访问，Namespaces提供环境的隔离。</p>
+<h3 id="仓库"><a href="#仓库" class="headerlink" title="仓库"></a>仓库</h3><p>类似于maven或者说像git仓库，可以push,pull</p>
+<p>##安装</p>
+<h3 id="ubuntu"><a href="#ubuntu" class="headerlink" title="ubuntu"></a>ubuntu</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get update</div><div class="line">$ sudo apt-get install docker</div></pre></td></tr></table></figure>
+<h3 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h3><h4 id="查看Docker-命令"><a href="#查看Docker-命令" class="headerlink" title="查看Docker 命令"></a>查看Docker 命令</h4><h4 id="命令帮助同其它linux-命令-–help"><a href="#命令帮助同其它linux-命令-–help" class="headerlink" title="命令帮助同其它linux 命令 –help"></a>命令帮助同其它linux 命令 –help</h4><h3 id="Docker服务"><a href="#Docker服务" class="headerlink" title="Docker服务"></a>Docker服务</h3><p>docker服务启动选项：<br>/etc/default/docker<br><code>DOCKER_OPTS</code></p>
+<h4 id="停止Docker服务"><a href="#停止Docker服务" class="headerlink" title="停止Docker服务"></a>停止Docker服务</h4><p>sudo service docker stop</p>
+<h4 id="启动docker服务"><a href="#启动docker服务" class="headerlink" title="启动docker服务"></a>启动docker服务</h4><p>sudo service docker start</p>
+<h4 id="查看docker服务状态"><a href="#查看docker服务状态" class="headerlink" title="查看docker服务状态"></a>查看docker服务状态</h4><p>sudo service docker status</p>
+<h4 id="docker镜像查找过程"><a href="#docker镜像查找过程" class="headerlink" title="docker镜像查找过程"></a>docker镜像查找过程</h4><p>docker run busybox echo “hello,Shi”<br>busybox:镜像名<br>1.首先本地查找<br>2.从Docker Hub或系统配置的默认Registry中下载</p>
+<p>查看镜像<br>docker ps    不包括停止的镜像<br>docker ps -a 查看所有镜像</p>
+<h3 id="容器管理"><a href="#容器管理" class="headerlink" title="容器管理"></a>容器管理</h3><h4 id="docker-run"><a href="#docker-run" class="headerlink" title="docker run"></a>docker run</h4><p>创建容器<br><code>$ docker run -t -i ubuntu /bin/bash</code><br>-t：分配一个 pseudo-TTY<br>-i：–interactive参数缩写，表示交互模式，如果没有 attach 保持 STDIN 打开状态<br>ubuntu：运行的镜像名称，默认为latest 标签<br>/bin/bash：容器中运行的应用</p>
+<p>退出</p>
+<ol>
+<li>直接 exit，这时候 bash 程序终止，容器进入到停止状态</li>
+<li>使用组合键退出，仍然保持容器运行，我们可以随时回来到这个bash中来，组合键是 <strong>Ctrl-p Ctrl-q</strong>，你没有看错，是两组组合键，先同时按下Ctrl和p，再按Ctrl和q。就可以退出到我们的宿主机了。</li>
+</ol>
+<h4 id="docker-attach"><a href="#docker-attach" class="headerlink" title="docker attach"></a>docker attach</h4><p>进入正在运行的容器<br><code>docker attach</code></p>
+<h4 id="docker-ps"><a href="#docker-ps" class="headerlink" title="docker ps"></a>docker ps</h4><p>查看正在运行的容器</p>
+<ul>
+<li>-a：查看所有容器，含停止运行的</li>
+<li>-l：查看刚启动的容器</li>
+<li>-q：只显示容器ID</li>
+</ul>
+<h4 id="docker-start"><a href="#docker-start" class="headerlink" title="docker start"></a>docker start</h4><p>启动容器</p>
+<h4 id="docker-inspect"><a href="#docker-inspect" class="headerlink" title="docker inspect"></a>docker inspect</h4><p>查看 Docker 容器或镜像的一些内部信息</p>
+<h4 id="docker-rm"><a href="#docker-rm" class="headerlink" title="docker rm"></a>docker rm</h4><p>删除容器操作。不能删除运行的容器</p>
+<h3 id="镜像管理"><a href="#镜像管理" class="headerlink" title="镜像管理"></a>镜像管理</h3><h4 id="docker-images-命令我们可以列出当前系统上所有的镜像信息"><a href="#docker-images-命令我们可以列出当前系统上所有的镜像信息" class="headerlink" title="docker images 命令我们可以列出当前系统上所有的镜像信息"></a>docker images 命令我们可以列出当前系统上所有的镜像信息</h4><h4 id="获取镜像docker-pull-busybox"><a href="#获取镜像docker-pull-busybox" class="headerlink" title="获取镜像docker pull busybox"></a>获取镜像docker pull busybox</h4><h4 id="创建镜像"><a href="#创建镜像" class="headerlink" title="创建镜像"></a>创建镜像</h4><ol>
+<li><p>创建Dockerfile文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">from ubuntu:latest</div><div class="line">ENV HOSTNAME=shiyanlou</div></pre></td></tr></table></figure>
+</li>
+<li><p>执行docker build -t 镜像名 Dockerfile文件目录</p>
+</li>
+<li>查看docker images</li>
+</ol>
+<h4 id="清理镜像"><a href="#清理镜像" class="headerlink" title="清理镜像"></a>清理镜像</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</div><div class="line">	System.out.println(<span class="string">"xxxxxx"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+		</div>
+	
+	
 </div>
+				
+				
+					<!-- Paradox Post Info -->
+					
+				
+
+                <!-- Post Comments -->
+                
+    <!-- 使用多说评论 -->
+    <link rel="stylesheet" href="/css/duoshuo.min.css">
+<style>
+    #ds-thread #ds-reset .ds-post-button{
+        background-color: #0097A7 !important;
+    }
+    #ds-wrapper #ds-reset .ds-icons-32{
+        background-color: #0097A7 !important;
+    }
+    #ds-reset .ds-highlight {
+        color: #0097A7 !important;
+    }
+</style>
+<div id="comments">
+        <div class="ds-share" 
+            data-thread-key="2016/12/16/docker概念及基本用法/" 
+            data-url="https://pengttyy.github.io//2016/12/16/docker概念及基本用法/index.html"
+            data-title="">
+                <div class="ds-share-inline">
+                  <ul  class="ds-share-icons-16">
+                    <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+                    <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+                    <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+                    <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>                    
+                    <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+                  </ul>
+                  <div class="ds-share-icons-more">
+                  </div>
+                </div>
+        </div>
+    <!-- 多说评论框 start -->
+        <div class="ds-thread" 
+            data-thread-key="2016/12/16/docker概念及基本用法/" 
+            data-url="https://pengttyy.github.io//2016/12/16/docker概念及基本用法/index.html"
+            data-title=""></div>
+    <!-- 多说评论框 end -->
+</div>
+
+
+
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2016/11/23/docker概念及基本用法2/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+        </div>
+    </div>
 
 				
 				
